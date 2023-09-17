@@ -1,0 +1,2 @@
+<label for="selectpickerIcons" class="form-label"><?=ucwords(str_replace("_"," ",$label))?></label>
+<select name="<?=$label?>" id="<?=$label?>" class="selectpicker w-100 show-tick" data-live-search="true"  data-icon-base="bx" data-tick-icon="bx-check" data-style="btn-default"></select>
